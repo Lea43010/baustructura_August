@@ -1,0 +1,1 @@
+import{j as s}from"./index-CyhjQ_VK.js";function r({children:e}){return s.jsx("header",{className:"bg-white shadow-sm sticky top-0 z-40",children:s.jsx("div",{className:"px-4 py-3",children:e})})}export{r as P};
