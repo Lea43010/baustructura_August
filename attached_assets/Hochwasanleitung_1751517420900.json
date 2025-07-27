@@ -1,0 +1,216 @@
+// In Ihrer Replit-Anwendung
+const wartungsDaten = {
+  "title": "Wartungs- und Unterhaltungsanweisung für den Hochwasserschutz Lohr",
+  "version": "3.1",
+  "bauteile": [
+    {
+      "nummer": 1,
+      "bauteil": "Lohr km 1.470 Nahe Kupfermühle",
+      "bauteilbeschreibung": "Absperrschieber DN 300",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle Schieberbauwerk, Schwimmbaken und Rechen am Einlauf; bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers und Überprüfung der Dichtheit der Schräche",
+          "Wartung der Einbauteile gemäß Herstellervorgaben",
+          "Entleeren der Haltorungen des Schieberbügelbügels gemäß Herstellervorgaben"
+        ],
+        "turnus": "Vierteljährlich und nach Hochwasser, Jährlich im Oktober, Vierteljährlich und nach Hochwasser",
+        "zuständigkeit": "auf Bauwerksverzeichnis Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 2,
+      "bauteil": "Lohr km 1.320",
+      "bauteilbeschreibung": "Absperrschieb bei ehern. Feuerwehr",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle, ggf. Wartung und Überprüfung der Gangbarkeit der Schieber und bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers",
+          "Wartung der Einbauteile gemäß Herstellervorgaben"
+        ],
+        "turnus": "Jährlich im Oktober, Vierteljährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung von Bezirk und Stadt Lohr von 2009 Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 3,
+      "bauteil": "Mutterbach Parkplatz Augenthal (Grundstück Weisrock)",
+      "bauteilbeschreibung": "Absperrschieber DN 1800",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle Absperrbauwerk und bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers",
+          "Wartung der Einbauteile gemäß Herstellervorgaben"
+        ],
+        "turnus": "Vierteljährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung von Bezirk und Stadt Lohr von 2009 Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 4,
+      "bauteil": "Mutterbach Parkplatz Augentlink am Wertstoffhof",
+      "bauteilbeschreibung": "Absperrschieber DN 300",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Überprüfung der Gangbarkeit des Schiebers",
+          "Wartung gemäß Herstellervorgaben"
+        ],
+        "turnus": "Vierteljährlich",
+        "zuständigkeit": "auf Vereinbarung von Bezirk und Stadt Lohr von 2009 Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 5,
+      "bauteil": "Am Mühlbach Parkplatz Augentlink (Grundstück Brückner)",
+      "bauteilbeschreibung": "Einlauf Verrohrung mit Siebrechenvorrichtung",
+      "unterlagen": "Lageplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": "Sichtkontrolle, bei Bedarf Räumung",
+        "turnus": "Jährlich",
+        "zuständigkeit": "laut ev. Auer der Betriebsanleitung an die Stadt Lohr übertragen"
+      }
+    },
+    {
+      "nummer": 6,
+      "bauteil": "Straßendamm B26",
+      "bauteilbeschreibung": "Absperrschieber DN 1000",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle Schieberbauwerk und Rechen am Einlauf; bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers und Überprüfung der Dichtheit der Schräche",
+          "Wartung der Einbauteile gemäß Herstellervorgaben",
+          "Entleeren der Haltorungen des Schieberbügels und des Schiebengangtrages"
+        ],
+        "turnus": "Vierteljährlich und nach Hochwasser, Jährlich im Oktober, Vierteljährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung von Bezirk und Stadt Lohr von 2009 Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 7,
+      "bauteil": "Straßendamm B26",
+      "bauteilbeschreibung": "Absperrschieber DN 500",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle Schieberbauwerk und Rechen am Einlauf; bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers und Überprüfung der Dichtheit der Schräche",
+          "Wartung der Einbauteile gemäß Herstellervorgaben",
+          "Entleeren der Haltorungen des Schieberbügels und des Schiebengangtrages"
+        ],
+        "turnus": "Vierteljährlich und nach Hochwasser, Jährlich im Oktober",
+        "zuständigkeit": "auf Vereinbarung von Bezirk und Stadt Lohr von 2009 Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 8,
+      "bauteil": "Linker Lohrdeilch Lohr km 0.750 (landsetitig bei Autohaus Brass)",
+      "bauteilbeschreibung": "Absperrschieber DN 600",
+      "unterlagen": "Lageplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Sichtkontrolle Bauwerk und Rechen; bei Bedarf Räumung",
+          "Überprüfung der Gangbarkeit des Schiebers",
+          "Wartung der Einbauteile gemäß Herstellervorgaben"
+        ],
+        "turnus": "Vierteljährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990: Unterhaltung Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 9,
+      "bauteil": "Linker Lohrdeilch Lohr km 0.750 (landsetitig bei Autohaus Brass)",
+      "bauteilbeschreibung": "Pumpensumpf: Einsatz mobiler Pumpen",
+      "unterlagen": "Lageplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": "Sichtkontrolle, bei Bedarf Räumung",
+        "turnus": "Jährlich",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990: Unterhaltung Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 10,
+      "bauteil": "Rechter Lohrdeilch Lohr km 0.70 Gewerbgebiete Würzburg Mutterbach in Lohr",
+      "bauteilbeschreibung": "elektrisch und manuell betriebener Absperrschieber 1500/1250",
+      "unterlagen": "Lageplan, Bauwerksplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": "In Absprache mit Firma Rexroth durchführen (Betrieb durch Firma Rexroth)",
+        "turnus": "",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990: Unterhaltung Stadt Lohr"
+      }
+    },
+    {
+      "nummer": 11,
+      "bauteil": "Deiche entlang der Lohr (linkes Flusshufer) Lohr km 0.750 bis 1.610. Deich entlang der B26 Lohr km 0.000. HWS-Mauer entlang der Lohr km Bereich der Kupfermühle. Deichdämme Parkplätze Park Parkplatz Widerich",
+      "bauteilbeschreibung": "Deichbauwerk HWS-Mauer",
+      "unterlagen": "Lageplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Deiche allgemein: Deichböschungen wasserseitig und landseitig kontrollieren; Schäden markieren und sofort den Betriebsbeauftragten informieren.",
+          "Deiche abrufen",
+          "Deiche nähen: Möhgut sofort beseitigen",
+          "Sichtkontrolle HWS-Mauer"
+        ],
+        "turnus": "Jährlich, 2 x jährlich (Frühjahr, Herbst), Jährlich",
+        "zuständigkeit": "nach der Rexroth-Vereinbarung 1990: Bezirk (WG Stadt Lohr Unterhaltung ihrer nicht)"
+      }
+    },
+    {
+      "nummer": 12,
+      "bauteil": "Deichdämme mit Parkplatz Widerich",
+      "bauteilbeschreibung": "Deichbauwerk",
+      "unterlagen": "Lageplan, Arbeitsanweisung",
+      "wartung": {
+        "massnahme": [
+          "Deiche allgemein: Deichböschungen wasserseitig und landseitig kontrollieren; Schäden markieren und sofort den Betriebsbeauftragten informieren.",
+          "Deiche abrufen",
+          "Deiche nähen: Möhgut sofort beseitigen"
+        ],
+        "turnus": "Jährlich, 2 x jährlich (Frühjahr, Herbst)",
+        "zuständigkeit": "auf Planfeststellung Anlage 7a vom 30.10.2008 und Vereinbarung von Bezirk und Stadt Lohr vom 2010 Stadt Lohr"
+      }
+    }
+  ],
+  "sonstige_bauwerke": {
+    "ohne_wartung": [
+      {
+        "beschreibung": "Zwischen Jakobstal und B26",
+        "gewässer": "Gewässer",
+        "lageplan": "Lageplan, Brückenkennzeichneh",
+        "massnahme": "Die Stadt Lohr veranlasst und trägt die Kosten für die Entladegarantienahmen des Altflughafens. Eine Erstohung muss erfolgen, bevor eine Genehmigt im Bereich der Brücke wie im Plan Nr. 4.13 'Brückenkennzeichneh' dargestellt, nicht mehr eingehalten ist.",
+        "turnus": "1 x jährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990"
+      },
+      {
+        "beschreibung": "Bereich der Brücke Zufahrt Gröndi Werk I, unter der Brücke sowie 20m Unterstromung bis 5 m",
+        "gewässer": "Gewässer",
+        "lageplan": "",
+        "massnahme": "Unterhaltung außer Mahren des Vorlands",
+        "turnus": "1 x jährlich und nach Hochwasser",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990: Unterhaltung Stadt Lohr *gelbe Fläche*"
+      },
+      {
+        "beschreibung": "Verlängerung der Mutterbach-verrohrung",
+        "lageplan": "Unterhaltung",
+        "massnahme": "",
+        "turnus": "",
+        "zuständigkeit": "auf Vereinbarung zw. Bezirk und Stadt Lohr 1990: Unterhaltung Stadt Lohr *gelbe Fläche*"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Hochwasserschutz Lohr",
+    "subtitle": "Wartungs- und Unterhaltungsanweisung",
+    "anlage": "Anlage 3.1",
+    "aufgestellt": "Wasserwirtschaftsamt Aschaffenburg"
+  }
+};
+
+// Beispiel: Alle Bauteile durchlaufen
+wartungsDaten.bauteile.forEach(bauteil => {
+    console.log(`Bauteil ${bauteil.nummer}: ${bauteil.bauteil}`);
+});
