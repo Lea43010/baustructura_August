@@ -1,0 +1,4 @@
+Test file for Supabase Storage upload
+This is a sample file to test the new storage system.
+Date: 2025-07-22
+System: Bau-Structura
