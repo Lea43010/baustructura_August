@@ -3,7 +3,7 @@ import { MapPin, Search, Loader2 } from "lucide-react";
 import { Input } from "../../components/ui/input";
 import { Button } from "../../components/ui/button";
 import { Card, CardContent } from "../../components/ui/card";
-import type { Project } from "../../shared/schema";
+import type { Project } from "@shared/schema";
 
 interface SimpleMapProps {
   projects: Project[];

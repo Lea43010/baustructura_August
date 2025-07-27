@@ -5,7 +5,7 @@
 import { describe, test, expect, beforeAll, afterAll } from 'vitest';
 import { storage } from '../storage';
 import { db } from '../db';
-import { users, projects, customers, companies } from '../../shared/schema';
+import { users, projects, customers, companies } from '@shared/schema';
 import { eq } from 'drizzle-orm';
 
 describe('User Isolation Security Tests', () => {

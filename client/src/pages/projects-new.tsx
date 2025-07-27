@@ -25,7 +25,7 @@ import {
   Euro
 } from "lucide-react";
 import { Link } from "wouter";
-import type { Project, Customer } from "../../shared/schema";
+import type { Project, Customer } from "@shared/schema";
 
 const projectFormSchema = z.object({
   name: z.string().min(1, "Projektname ist erforderlich"),

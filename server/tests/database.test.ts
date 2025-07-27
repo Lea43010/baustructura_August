@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeAll, afterAll, beforeEach } from 'vitest'
 import { db } from '../db'
 import { storage } from '../storage'
-import { users, projects, customers, companies } from '../../shared/schema'
+import { users, projects, customers, companies } from '@shared/schema'
 import { eq } from 'drizzle-orm'
 
 describe('Database Integration Tests', () => {
